@@ -20,12 +20,5 @@ def assign_rooms(speakers)
     room_assignments.push("Hello, #{name}! You'll be assigned to room #{rooms[room]}!")}
 
   return room_assignments
-=begin
-  for person in speakers do
-    for rm in rooms do
-      room_assignments.push("Hello #{person}! You'll be assigned to room #{rm}!")
-    end
-  end
-  return room_assignments
-=end
+
 end
