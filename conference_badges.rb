@@ -22,5 +22,5 @@ def assign_rooms(speakers)
     end
   end
   return room_assignments
-  
+
 end
