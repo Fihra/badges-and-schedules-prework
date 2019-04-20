@@ -24,7 +24,7 @@ def assign_rooms(speakers)
 end
 
 def printer()
-  for person in assign_rooms(name) do
+  for person in assign_rooms do
     puts person
   end
 end
