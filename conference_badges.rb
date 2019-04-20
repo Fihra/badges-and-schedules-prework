@@ -5,7 +5,8 @@ end
 
 def batch_badge_creator(name_array)
   for names in name_array do
-  return badge_maker(names)
+    return badge_maker(names)
+  end
 end
 
 def assign_rooms(speakers)
