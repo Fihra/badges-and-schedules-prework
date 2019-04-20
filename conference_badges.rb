@@ -16,12 +16,9 @@ def assign_rooms(speakers)
   rooms = [1, 2, 3, 4, 5, 6, 7]
   room_assignments = []
 
-  speakers.each_with_index{|name, room|
-    room_assignments.push("Hello #{name}! You'll be assigned to #{room}! ")
+  speakers.each_with_index{|name, room| room_assignments.push("Hello #{name}! You'll be assigned to #{room}! ")}
 
-  }
-
-  return room_assignemnts
+  return room_assignments
 =begin
   for person in speakers do
     for rm in rooms do
