@@ -31,5 +31,5 @@ def printer(array)
   assign_rooms(array).each do |index|
     puts index
   end
-    
+
 end
